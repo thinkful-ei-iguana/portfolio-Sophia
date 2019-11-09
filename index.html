@@ -6,41 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
 
 <body>
     <nav role="navigation">
-            <div id="git-nav">GitHub</div>
-            <div id="portfolio-nav">Portfolio</div>
-            <div id="linked-nav">LinkedIn</div>
+        <div class="drop-down">
+            <button class="hamburger" style="color:hsl(27, 94%, 55%)"><i
+                    class="fas fa-bars"></i></button>
+            <div class="menu" id="drop-down">
+                <li id="portfolio-nav"><a style="color:white" href="#portfolio-start">Portfolio</a></li>
+                <li id="git-nav"><a style="color: white" href="#footer">GitHub</a></li>
+                <li id="linked-nav" ><a style="color:white" href="#footer">LinkedIn</a></li>
+            </div>
+        </div>
     </nav>
+
     <main role="main">
         <header role="banner">
-            <h1>Hello!</h1>
-            <p>My name is Sophia Koeut from San Diego. I like to convert tea into
+            <h1 class="hello-header">Hello!</h1>
+            <p class="header-pitch-line">My name is Sophia Koeut from San Diego. I like to convert tea into
                 code to make the web beautiful!</p>
-            <p>profile img on the side</p>
         </header>
 
         <section>
-            about me description
-            <p class="about-me-desc"></p>
+            <p class="about-me-desc">I've jumped from being a Nursing Student to influencing children with Autism but I
+                couldn't quite see myself being in those fields long-term. Along my life journey, a friend who knew my
+                love for gaming suggested that I look into coding as my next stop.
+                This is where my development journey begins . Web Development. Just as we humans have different genetic
+                makeup, code for one function can be made with several possibilities. I set out to understand how code
+                is capable of making the web a more beautiful and interactive place. I thrive on learning from other
+                developer's problem-solving skills and approaches to code. From my experience
+                working with clients, I'm a great team player and strive for meaningful and productive collaboration.
+            </p>
         </section>
 
-        <section>
-            Project 1
+        <section class="portfolio" id="portfolio-start">
+            <h2>The Works</h2>
+            <h5>Videogame Quiz</h4>
+                <img class="quiz-img" src="styles/img/quiz-app-start-screen.png">
+                <p>Are you a videogame whiz? Put your knowledge to the test by taking this quiz built on
+                    HTML, CSS, Javascript, and Jquery. Steam-powered through nerdy blood, sweat, and tears.</p>
+                <div class="quiz-link-container">
+                    <a style="color:white" href="https://github.com/thinkful-ei-iguana/sophia-eli-quiz-app">Repo</a>
+                    <a style="color:white" href="https://cantuus.github.io/">Demo</a>
+                </div>
         </section>
 
-        <section>
-            Project 2
+        <section class="portfolio">
+            <h5 style="color:#d1274b">My Bookmarks</h5>
+            <img class="bookmark-img" src="styles/img/bookmark-app.png">
+            <p>Accessing Thinkful's API, create and add favorite websites to a list to reference another time.
+                This App was built on HTML, CSS, Jquery, and Javascript.</p>
+            <div class="bookmark-link-container">
+                <a style="color:#d1274b" href="https://github.com/cantuus/bookmark-app">Repo</a>
+                <a style="color:#d1274b" href="https://cantuus.github.io/bookmark-app/">Demo</a>
+            </div>
         </section>
 
-        <section>
-            Keeping in touch (Contact)
-        </section>
     </main>
-    <footer>Footer</footer>
+    <footer id="footer">Wanna Keep in Touch?
+        <div class="footer-nav">
+            <a class="icon-button" href="https://github.com/cantuus" title="Github">
+                <i class="fab fa-github" style="color:hsl(27, 94%, 55%);"></i>
+            </a>
+            <a class="icon-button" href="https://www.linkedin.com/in/sophia-koeut-2a9030125/" title="LinkedIn">
+                <i class="fab fa-linkedin-in" style="color:hsl(27, 94%, 55%);"></i>
+            </a>
+            <a class="icon-button" href="mailto:koeutsophia@gmail.com" title="gmail">
+                <i class="far fa-envelope" style="color:hsl(27, 94%, 55%);"></i>
+            </a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
+
+<!-- <div class="ui center aligned container">
+    <p class="ui grey sub header">Copyright © Erik Onarheim 2017</p>
+    
+    <div class="ui basic vertical segment">
+      <a class="ui circular icon button" href="https://twitter.com/erikonarheim" title="Twitter">
+    <i class="fa fa-twitter fa-fw fa-2x"></i>
+  </a>
+  <a class="ui circular icon button" href="https://github.com/eonarheim" title="GitHub">
+    <i class="fa fa-github fa-fw fa-2x"></i>
+  </a>
+  <a class="ui circular icon button" href="https://www.youtube.com/channel/UCpfvwJIqmxG-3DD4QMofyxg" title="YouTube">
+    <i class="fa fa-youtube fa-fw fa-2x"></i>
+  </a>
+  <a class="ui circular icon button" href="https://www.linkedin.com/in/erik-onarheim" title="LinkedIn">
+    <i class="fa fa-linkedin fa-fw fa-2x"></i>
+  </a>
+  <a class="ui circular icon button" href="https://feeds.feedburner.com/erikonarheim" title="RSS">
+    <i class="fa fa-rss fa-fw fa-2x"></i>
+  </a>
+  
+    </div>
+  </div> -->

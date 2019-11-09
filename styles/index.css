@@ -1,6 +1,20 @@
 * {
     box-sizing: border-box;
   }
+/* 
+  #menu a{
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+    padding: 5px;
+   } */
+
+   nav li {
+    display: inline;
+   }
+   .menu{
+    display: none;
+   }
   
   body {
     font-family: 'McLaren', cursive; sans-serif; 
@@ -9,11 +23,30 @@
     text-align: center;
   }
   
-  nav,
-  footer {
+  nav {
     padding: 1% 0;
-    background-color: gray;
+    background-color: #f88020;
+    text-decoration: none;
   }
+
+  footer {
+    padding: 5% 0;
+    background-color:#3d0e1e;
+    color: white;
+    font-size: 30px;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  .icon-button {
+    margin-right: 15px;
+    size: 10px;
+  }
+  
   
   nav {
     position: fixed;
@@ -25,21 +58,66 @@
     justify-content: flex-end;
   }
   
+  .menu {
+    display: flex;
+  }
+
   #git-nav, #portfolio-nav, #linked-nav {
     margin-right: 10px;
+    list-style-type: none;
   }
-  
+
+  nav a  {
+    text-decoration: none;
+  }
+
   
   header {
     padding: 12% 0;
   }
+
+  .hamburger {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    img {
+        display: block;
+         height: 100%x;
+         width: 100%;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+      margin: 1rem;
+    }
+
+
+}
+
+img {
+  height: 400px;
+}
+
   
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #ddd;
+    background-color: #fff4e4;
+  }
+
+  p {
+    line-height: 32px;
   }
   
-  section:nth-child(even) {
-    background-color:darkgrey;
+  section:nth-child(odd) {
+    background-color: #d1274b;
+    color: white;
   }
+
+ 
