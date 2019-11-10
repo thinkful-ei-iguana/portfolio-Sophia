@@ -79,6 +79,7 @@
   
   .menu {
     display: flex;
+    font-weight: bold;
   }
 
   #git-nav, #portfolio-nav, #linked-nav {
@@ -99,8 +100,31 @@
     display: none;
   }
 
+  .profile-img {
+    height: 200px;
+    border-radius: 15rem;
+    margin-top: 2rem;
+    margin-right: 102px;
+  }
+
   .bookmark-img, .quiz-img {
     height: 400px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .bookmark-img, .quiz-img {
+      width: 100%;
+    }
+
+    .bookmark-img, .quiz-img {
+      height: 400px;
+    }
+
+    .profile-img {
+      margin-top: 3rem;
+      margin-left: 1rem;
+    }
+
   }
 
   @media screen and (max-width: 500px) {
@@ -145,13 +169,12 @@
       margin-top: 84px;
     }
 
+    .profile-img {
+      margin-top: 3rem;
+      margin-right: 1rem;
+    }
 
-}
 
-.profile-img {
-  height: 200px;
-  border-radius: 15rem;
-  margin-top: 1rem;
 }
 
   
