@@ -2,7 +2,7 @@ let active = false;
 
 $(document).ready(function () {
   //mobile view only
-  if ($(window).width() <= 400){	
+  if ($(window).width() <= 500){	
 		$(".hamburger").click(function () {
       toggleMenu();
     });

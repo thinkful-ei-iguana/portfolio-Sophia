@@ -23,6 +23,11 @@
      font-size: 100px;
    }
 
+   .arrow-down {
+    font-size: 48px;
+    margin-top: 62px;
+    }
+
    nav li {
     display: inline;
    }
@@ -87,7 +92,7 @@
 
   
   header {
-    padding: 12% 0;
+    padding: 6% 0;
   }
 
   .hamburger {
@@ -98,13 +103,17 @@
     height: 400px;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     .bookmark-img, .quiz-img {
       width: 100%;
     }
 
     .bookmark-img, .quiz-img {
       height: 200px;
+    }
+
+    .arrow-down {
+      margin-top: 0px;
     }
 
     .menu {
