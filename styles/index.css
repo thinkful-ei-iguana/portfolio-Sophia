@@ -9,6 +9,20 @@
     padding: 5px;
    } */
 
+   header {
+     background-color:#3d0e1e;
+     color:white;
+   }
+
+   .top-banner {
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .hello-header {
+     font-size: 100px;
+   }
+
    nav li {
     display: inline;
    }
@@ -17,7 +31,7 @@
    }
   
   body {
-    font-family: 'McLaren', cursive; sans-serif; 
+    font-family: 'McLaren', cursive, sans-serif; 
     font-size: 20px;
     color: #444;
     text-align: center;
@@ -80,28 +94,55 @@
     display: none;
   }
 
+  .bookmark-img, .quiz-img {
+    height: 400px;
+  }
 
-  @media screen and (max-width: 1200px) {
-    img {
-        display: block;
-         height: 100%x;
-         width: 100%;
+  @media screen and (max-width: 400px) {
+    .bookmark-img, .quiz-img {
+      width: 100%;
+    }
+
+    .bookmark-img, .quiz-img {
+      height: 200px;
     }
 
     .menu {
       display: none;
+      max-height: 0;
+    }
+
+    .menu-open {
+      max-height:100%;
+      transition-property: all;
+	    transition-duration: .5s;
+	    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    }
+
+    .menu li {
+      display: block;
+      text-align: right;
+      padding: 10px;
     }
 
     .hamburger {
       display: block;
       margin: 1rem;
+      text-align: right;
+    }
+
+    .hello-header {
+      font-size: 45px;
+      margin-top: 84px;
     }
 
 
 }
 
-img {
-  height: 400px;
+.profile-img {
+  height: 200px;
+  border-radius: 15rem;
+  margin-top: 1rem;
 }
 
   

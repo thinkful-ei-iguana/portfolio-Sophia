@@ -13,19 +13,21 @@
 <body>
     <nav role="navigation">
         <div class="drop-down">
-            <button class="hamburger" style="color:hsl(27, 94%, 55%)"><i
-                    class="fas fa-bars"></i></button>
+            <div class="hamburger" style="color:white"><i class="fas fa-bars"></i></div>
             <div class="menu" id="drop-down">
                 <li id="portfolio-nav"><a style="color:white" href="#portfolio-start">Portfolio</a></li>
                 <li id="git-nav"><a style="color: white" href="#footer">GitHub</a></li>
-                <li id="linked-nav" ><a style="color:white" href="#footer">LinkedIn</a></li>
+                <li id="linked-nav"><a style="color:white" href="#footer">LinkedIn</a></li>
             </div>
         </div>
     </nav>
 
     <main role="main">
         <header role="banner">
-            <h1 class="hello-header">Hello!</h1>
+            <div class="top-banner">
+                <h1 class="hello-header">Hello!</h1>
+                <img class="profile-img" src="styles/img/IMG_20150825_204739 - better copy.jpg" alt="sophia's picture">
+            </div>
             <p class="header-pitch-line">My name is Sophia Koeut from San Diego. I like to convert tea into
                 code to make the web beautiful!</p>
         </header>
@@ -40,14 +42,19 @@
                 developer's problem-solving skills and approaches to code. From my experience
                 working with clients, I'm a great team player and strive for meaningful and productive collaboration.
             </p>
+            <p class="hobby">
+                <h3>When I'm not coding if and else statements...</h3>
+                PC or Console Gaming
+                Trying new foodie spots
+                weekend night board games</p>
         </section>
 
         <section class="portfolio" id="portfolio-start">
             <h2>The Works</h2>
             <h5>Videogame Quiz</h4>
-                <img class="quiz-img" src="styles/img/quiz-app-start-screen.png">
+                <img class="quiz-img" src="styles/img/quiz-app-start-screen.png" alt="mario and luigi high-fiving">
                 <p>Are you a videogame whiz? Put your knowledge to the test by taking this quiz built on
-                    HTML, CSS, Javascript, and Jquery. Steam-powered through nerdy blood, sweat, and tears.</p>
+                    HTML, CSS, Javascript, and Jquery. <i>Steam-powered through nerdy blood, sweat, and tears.</i></p>
                 <div class="quiz-link-container">
                     <a style="color:white" href="https://github.com/thinkful-ei-iguana/sophia-eli-quiz-app">Repo</a>
                     <a style="color:white" href="https://cantuus.github.io/">Demo</a>
@@ -56,7 +63,7 @@
 
         <section class="portfolio">
             <h5 style="color:#d1274b">My Bookmarks</h5>
-            <img class="bookmark-img" src="styles/img/bookmark-app.png">
+            <img class="bookmark-img" src="styles/img/bookmark-app.png" alt="My Bookmarks start screen">
             <p>Accessing Thinkful's API, create and add favorite websites to a list to reference another time.
                 This App was built on HTML, CSS, Jquery, and Javascript.</p>
             <div class="bookmark-link-container">
