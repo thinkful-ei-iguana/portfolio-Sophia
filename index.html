@@ -13,12 +13,12 @@
 <body>
     <nav role="navigation">
         <div class="drop-down">
-            <div class="hamburger" style="color:black"><i class="fas fa-bars"></i></div>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
             <div class="menu" id="drop-down">
                 <ul>
-                    <li id="portfolio-nav"><a style="color:black" href="#portfolio-start">Portfolio</a></li>
-                    <li id="git-nav"><a style="color: black" href="#footer">GitHub</a></li>
-                    <li id="linked-nav"><a style="color:black" href="#footer">LinkedIn</a></li>
+                    <li class="nav-option" id="portfolio-nav"><a style="color:black" href="#portfolio-start">Portfolio</a></li>
+                    <li class="nav-option" id="git-nav"><a style="color:black" href="#footer">GitHub</a></li>
+                    <li class="nav-option" id="linked-nav"><a style="color:black" href="#footer">LinkedIn</a></li>
                 </ul>
             </div>
         </div>
@@ -28,42 +28,46 @@
         <header role="banner">
             <div class="top-banner">
                 <h1 class="hello-header">Hello!</h1>
-                <img class="profile-img" src="styles/img/IMG_20150825_204739 - better copy.jpg" alt="sophia's picture">
+                <img class="profile-img" src="styles/img/hero-picture.jpg" alt="hero-picture">
             </div>
             <p class="header-pitch-line">My name is Sophia Koeut from San Diego. I like to convert tea into
                 code to make the web beautiful!</p>
-            <a href="#about-me" style="color:white" class="arrow-down"><i class="fas fa-angle-double-down"></i></a>
+            <a href="#about-me" class="arrow-down"><i class="fas fa-angle-double-down"></i></a>
         </header>
 
         <section id="about-me">
             <p class="about-me-desc">I've jumped from being a Nursing Student to influencing children with Autism but I
                 couldn't quite see myself being in those fields long-term. Along my life journey, a friend who knew my
                 love for gaming suggested that I look into coding as my next stop.
-                This is where my development journey begins . Web Development. Just as we humans have different genetic
+                This is where my web development journey begins.
+            </p>
+            <p>Just as we humans have different genetic
                 makeup, code for one function can be made with several possibilities. I set out to understand how code
-                is capable of making the web a more beautiful and interactive place. I thrive on learning from other
+                is capable of making the web a more beautiful and interactive place.
+            </p>
+            <p>I thrive on learning from other
                 developer's problem-solving skills and approaches to code. From my experience
                 working with clients, I'm a great team player and strive for meaningful and productive collaboration.
             </p>
-            <p class="hobby">
+            <div class="hobby">
                 <h3>When I'm not coding if and else statements...</h3>
                 <div>PC or Console Gaming</div>
                 <div>Trying new foodie spots</div>
                 <div>Weekend night board games</div>
-            </p>
+            </div>
         </section>
 
         <section class="portfolio" id="portfolio-start">
             <h2>The Works</h2>
-            <h5>Videogame Quiz</h4>
-                <img class="quiz-img" src="styles/img/quiz-app-start-screen.png" alt="mario and luigi high-fiving">
-                <p>Are you a videogame whiz? Put your knowledge to the test by taking this quiz built on
-                    HTML, CSS, Javascript, and Jquery. <i>Steam-powered through nerdy blood, sweat, and tears.</i></p>
-                <div class="quiz-link-container">
-                    <a style="color:white" target="_blank"
-                        href="https://github.com/thinkful-ei-iguana/sophia-eli-quiz-app">Repo</a>
-                    <a style="color:white" target="_blank" href="https://cantuus.github.io/">Demo</a>
-                </div>
+            <h5>Videogame Quiz</h5>
+            <img class="quiz-img" src="styles/img/quiz-app-start-screen.png" alt="mario and luigi high-fiving">
+            <p>Are you a videogame whiz? Put your knowledge to the test by taking this quiz built on
+                HTML, CSS, Javascript, and Jquery. <i>Steam-powered through nerdy blood, sweat, and tears.</i></p>
+            <div class="quiz-link-container">
+                <a class="quiz-link" target="_blank"
+                    href="https://github.com/thinkful-ei-iguana/sophia-eli-quiz-app">Repo</a>
+                <a class="quiz-link" target="_blank" href="https://cantuus.github.io/">Demo</a>
+            </div>
         </section>
 
         <section class="portfolio">
@@ -73,8 +77,8 @@
                 websites to a list without giving yourself a hand cramp.
                 This App was built on HTML, CSS, Jquery, and Javascript.</p>
             <div class="bookmark-link-container">
-                <a style="color:#d1274b" target="_blank" href="https://github.com/cantuus/bookmark-app">Repo</a>
-                <a style="color:#d1274b" target="_blank" href="https://cantuus.github.io/bookmark-app/">Demo</a>
+                <a class="bookmark-link" target="_blank" href="https://github.com/cantuus/bookmark-app">Repo</a>
+                <a class="bookmark-link" target="_blank" href="https://cantuus.github.io/bookmark-app/">Demo</a>
             </div>
         </section>
 
@@ -82,14 +86,14 @@
     <footer id="footer">Wanna Keep in Touch?
         <div class="footer-nav">
             <a class="icon-button" target="_blank" href="https://github.com/cantuus" title="Github">
-                <i class="fab fa-github" style="color:hsl(27, 94%, 55%);"></i>
+                <i class="fab fa-github"></i>
             </a>
             <a class="icon-button" target="_blank" href="https://www.linkedin.com/in/sophia-koeut-2a9030125/"
                 title="LinkedIn">
-                <i class="fab fa-linkedin-in" style="color:hsl(27, 94%, 55%);"></i>
+                <i class="fab fa-linkedin-in"></i>
             </a>
             <a class="icon-button" target="_blank" href="mailto:koeutsophia@gmail.com" title="gmail">
-                <i class="far fa-envelope" style="color:hsl(27, 94%, 55%);"></i>
+                <i class="far fa-envelope"></i>
             </a>
         </div>
     </footer>
