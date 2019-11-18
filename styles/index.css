@@ -36,10 +36,6 @@
     list-style-type: none;
   }
 
-  .nav-option:hover {
-    color:white;
-  }
-  
   nav a  {
     text-decoration: none;
   }
@@ -137,9 +133,6 @@ a.icon-button:hover {
 .bookmark-link {
   color:#d1274b;
 }
-
-
-
 
 /* 800px and above; desktops */
 @media screen and (min-width: 800px) {
