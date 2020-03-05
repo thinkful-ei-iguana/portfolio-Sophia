@@ -150,12 +150,12 @@ a.icon-button:hover {
   color: white;
 }
 
-.quiz-link, .dozo-link {
-  color: #d1274b;
+.dozo-link {
+  color:black;
 }
 
 .tallyho-link, .digi-doodle-link {
-  color:white;
+  color: #70566D;
 }
 
 /* 800px and above; desktops */
