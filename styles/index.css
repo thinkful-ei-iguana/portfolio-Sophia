@@ -111,7 +111,7 @@ body {
   font-size: 20px;
 }
 
-.project-header {
+.project-header, .about-me-header {
   color: #70566D;
   font-size: 2rem;
 }
@@ -209,7 +209,7 @@ a.icon-button:hover {
     padding-bottom: 30px;
   }
 
-  .project-header {
+  .project-header, .about-me-header {
     font-size: 3rem;
   }
 
