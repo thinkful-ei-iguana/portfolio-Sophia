@@ -43,13 +43,13 @@
   .profile-img {
     margin-top: 3rem;
     margin-right: 1rem;
-    border-radius: 15rem;
+    border-radius: 43%;
     height: 200px;
   }
   
   .tallyho-img, .quiz-img, .dozo-img, .digi-doodle-img {
     width: 100%;
-    height: 200px;
+    height: 260px;
   }
   
   .hamburger {
@@ -100,6 +100,9 @@ body {
 
 .dozo-container {
   background-color: #ABC8C0;
+}
+
+.project-container, .dozo-container {
   margin: 10px 10px 10px 10px;
 }
 
@@ -162,7 +165,7 @@ a.icon-button:hover {
 @media screen and (min-width: 800px) {
   .profile-img {
     height: 200px;
-    border-radius: 15rem;
+    border-radius: 43%;
     margin-top: 2rem;
     margin-right: 73px;
   }
@@ -187,6 +190,13 @@ a.icon-button:hover {
 
   .dozo-container {
     background-color: #ABC8C0;
+  }
+
+  .dozo-container, .project-container {
+    margin: 100px 100px 100px 100px;
+  }
+
+  .project-container {
     margin: 100px 100px 100px 100px;
   }
 
@@ -201,6 +211,10 @@ a.icon-button:hover {
 
   .project-header {
     font-size: 3rem;
+  }
+
+  .hello-header {
+    margin-left: 6%
   }
 
 }
@@ -218,7 +232,7 @@ a.icon-button:hover {
   }
  
   .tallyho-img, .quiz-img, .dozo-img, .digi-doodle-img {/*tablet*/
-    height: 400px;
+    height: 437px;
   }
   
   .profile-img {/*tablet*/
