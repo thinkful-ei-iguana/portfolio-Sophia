@@ -56,7 +56,7 @@
     display: block;
     margin: 1rem;
     text-align: right;
-    color: White;
+    color: #70566D;
   }
 
   .menu {
@@ -65,7 +65,7 @@
   }
 
   #portfolio-nav, #git-nav, #linked-nav {
-    color:White;
+    color:#70566D;
   }
 
   .menu-open {
@@ -120,20 +120,10 @@ body {
   padding-bottom: 15px;
 }
 
-.arrow-down {
-  font-size: 48px;
-  margin-top: 62px;
-  color:white;
-  }
-
-.fa-angle-double-down:hover {
-  color: #ABC8C0;
-}
-
 footer {
   padding: 5% 0;
   background-color:#ABC8C0;
-  color: white;
+  color: #70566D;
   font-size: 30px;
 }
 
